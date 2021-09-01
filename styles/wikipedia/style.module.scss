@@ -1,0 +1,102 @@
+
+
+.container {
+    .header {
+        margin: 30px 60px 50px;
+        height: 100px;
+        > .inner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            .logo {
+                > img {
+                    width: 40px;
+                }
+            }
+            .links {
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin: 0;
+                    padding: 0;
+                    width: 500px;
+                    li {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        list-style: none;
+                        font-weight: bold;
+                        line-height: 2rem;
+                        img {
+                            width: 18px;
+                            margin-right:10px;
+                        }
+                    }
+                }
+            }
+            .menu {
+                > .inner {
+                    img {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        width: 100%;
+        font-size: 1.2rem;
+        margin-bottom: 80px;
+        .head {
+            width: 100%;
+            margin: 0 auto;
+            max-width: 1300px;
+            img {
+                width: 100%;
+            }
+        }
+        > .inner {
+            margin: 0 auto;
+            max-width: 1000px;
+            article {
+                h1 {
+                    font-family: serif;
+                    font-size: 3.2rem;
+                }
+                .info {
+                    ul {
+                        padding: 0;
+                        margin: 0;
+                        margin-bottom: 50px;
+                        li {
+                            list-style: none;
+                            margin-bottom: 10px;
+                            span {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+                .main_text {
+                        img {
+                            float: right;
+                            clear: left;
+                        }
+                }
+            }
+        }
+    }
+
+    footer {
+        width: 100%;
+        background-color: #c6c6c6;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+}
